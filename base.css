@@ -1,0 +1,119 @@
+.vscode-body {
+  padding: 15px 20px;
+  background-color: #fff;
+  color: #172b4d;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.42857142857143;
+  letter-spacing: -0.005em;
+  text-decoration-skip: ink;
+}
+
+.vscode-body blockquote {
+  background-color: initial;
+}
+
+.vscode-body pre {
+  color: initial;
+  background: #f7f7f7 !important;
+}
+
+.vscode-body code {
+  color: inherit;
+}
+
+.vscode-body pre code {
+  color: initial;
+}
+
+.vscode-body code > div {
+  background: none;
+}
+
+.vscode-body table th,
+.vscode-body table td {
+  border: 1px solid #ddd !important;
+}
+
+.vscode-body.showEditorSelection .code-active-line:before {
+  border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-body.showEditorSelection .code-line:hover:before {
+  border-left: 3px solid rgba(0, 0, 0, 0.4);
+}
+
+.vscode-body.showEditorSelection .code-line .code-line:hover:before {
+  border-left: none;
+}
+
+.hljs-comment {
+  color: #999988;
+  font-style: italic;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+  color: #172b4d;
+}
+
+.hljs-deletion {
+  color: #000000;
+  background-color: #ffdddd;
+}
+
+.hljs-addition {
+  color: #000000;
+  background-color: #ddffdd;
+}
+
+.hljs-strong,
+.hljs-keyword {
+  font-weight: bold;
+  color: #172b4d;
+}
+
+.hljs-type,
+.hljs-class {
+  color: #445588;
+  font-weight: bold;
+}
+
+.hljs-attribute {
+  color: #008080;
+}
+
+.hljs-function {
+  color: #990000;
+  font-weight: bold;
+}
+
+.hljs-variable {
+  color: #008026;
+}
+
+.hljs-number {
+  color: #009999;
+}
+
+.hljs-regexp {
+  color: #808000;
+}
+
+.hljs-string,
+.hljs-symbol {
+  color: #bb8844;
+}
+
+.hljs-title,
+.hljs-built_in,
+.hljs-builtin-name {
+  color: #999999;
+}
+
+.hljs-tag {
+  color: #000080;
+}

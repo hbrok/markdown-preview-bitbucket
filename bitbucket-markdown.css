@@ -1,0 +1,217 @@
+hr {
+  margin: 20px 0;
+  border: 0;
+  border-bottom: 1px solid #ccc;
+}
+
+li,
+p {
+  word-wrap: break-word;
+}
+
+li > p {
+  margin-bottom: 10px;
+}
+
+blockquote {
+  border-left: 1px solid #ccc;
+  color: #707070;
+  padding: 10px 30px;
+  margin: 10px 0 0;
+}
+
+pre,
+code {
+  background: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  overflow-x: auto;
+  padding: 5px 10px;
+  word-wrap: normal;
+  font-size: 12px;
+  line-height: 1.4;
+  letter-spacing: 0;
+}
+
+code,
+pre {
+  font-family: SFMono-Medium, "SF Mono", "Segoe UI Mono", "Roboto Mono",
+    "Ubuntu Mono", Menlo, Courier, monospace;
+}
+
+code,
+tt {
+  padding: 1px 3px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background: #f5f5f5;
+}
+
+pre,
+code,
+tt {
+  border: 0;
+}
+
+img {
+  border: none;
+  max-width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 10px;
+  width: 100%;
+}
+
+table table {
+  margin: 0;
+}
+
+table > caption {
+  background: #f5f5f5;
+  border-bottom: 1px solid #ccc;
+  caption-side: top;
+  color: #707070;
+  padding: 7px 10px;
+  text-align: left;
+}
+
+table > tbody > tr,
+table > tfoot > tr {
+  background: #fff;
+  border-bottom: 1px solid #ccc;
+  color: #172b4d;
+}
+
+table > tbody > tr > th {
+  background: #fff;
+  color: #172b4d;
+}
+
+table > tbody > tr > td,
+table > tbody > tr > th,
+table > tfoot > tr > td,
+table > thead > tr > td,
+table > thead > tr > th {
+  padding: 7px 10px;
+  text-align: left;
+  vertical-align: top;
+}
+
+table > tbody > tr > td[align="center"],
+table > tbody > tr > th[align="center"],
+table > tfoot > tr > td[align="center"],
+table > thead > tr > td[align="center"],
+table > thead > tr > th[align="center"] {
+  text-align: center;
+}
+
+table > tbody > tr > td[align="right"],
+table > tbody > tr > th[align="right"],
+table > tfoot > tr > td[align="right"],
+table > thead > tr > td[align="right"],
+table > thead > tr > th[align="right"] {
+  text-align: right;
+}
+
+table > thead {
+  border-bottom: 1px solid #ccc;
+}
+
+table > tbody > tr:first-child > td,
+table > tbody > tr:first-child > th,
+table > tfoot > tr:first-child > td {
+  border-top: 1px solid #ccc;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+ul > li > ul {
+  list-style-type: circle;
+}
+
+ul > li > ul > li > ul {
+  list-style-type: square;
+}
+
+ul > li > ul {
+  margin-top: 0;
+}
+
+.toc ul {
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 1.42857143em;
+  font-style: inherit;
+  font-weight: 500;
+  letter-spacing: -0.008em;
+  line-height: 1.2;
+  margin-top: 28px;
+  color: #172b4d;
+}
+
+h3,
+section h1,
+section h2,
+section section h1 {
+  font-size: 1.14285714em;
+  font-style: inherit;
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: -0.006em;
+  margin-top: 24px;
+  color: #172b4d;
+}
+
+h4,
+section h3,
+section section h2,
+section section section h1 {
+  font-size: 1em;
+  font-style: inherit;
+  font-weight: 600;
+  line-height: 1.14285714;
+  letter-spacing: -0.003em;
+  margin-top: 16px;
+  color: #172b4d;
+}
+
+h5,
+section h4,
+section section h3,
+section section section h2,
+section section section section h1 {
+  color: #5e6c84;
+  font-size: 0.85714286em;
+  font-weight: 600;
+  line-height: 1.33333333;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+h6,
+section h5,
+section section h4,
+section section section h3,
+section section section section h2,
+section section section section section h1 {
+  color: #5e6c84;
+  font-size: 0.85714286em;
+  font-weight: 600;
+  line-height: 1.33333333;
+  margin-top: 16px;
+}
+
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child,
+h5:first-child,
+h6:first-child {
+  margin-top: 0;
+}
