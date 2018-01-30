@@ -11,7 +11,7 @@
   "categories": ["Other"],
   "icon": "images/icon.png",
   "galleryBanner": {
-    "color": "#C80000",
+    "color": "#eee",
     "theme": "light"
   },
   "keywords": ["Markdown", "Bitbucket"],
