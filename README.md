@@ -1,4 +1,4 @@
-# Markdown Preview Bitbucket Styles
+# Markdown Preview with Bitbucket Styles
 
 ## Features
 
