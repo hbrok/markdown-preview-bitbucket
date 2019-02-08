@@ -12,13 +12,27 @@
   text-decoration-skip: ink;
 }
 
-.vscode-body blockquote {
-  background-color: initial;
+.vscode-body a {
+  color: #0052CC;
+  text-decoration: none;
 }
 
-.vscode-body pre {
-  color: initial;
-  background: #f7f7f7 !important;
+.vscode-body a:hover {
+  color: #0065FF;
+  text-decoration: underline;
+}
+
+.vscode-body a:active {
+  color: #0747A6;
+}
+
+.vscode-body a:focus {
+  outline: 2px solid #4C9AFF;
+  outline-offset: 2px;
+}
+
+.vscode-body blockquote {
+  background-color: initial;
 }
 
 .vscode-body code {
@@ -116,4 +130,17 @@
 
 .hljs-tag {
   color: #000080;
+}
+
+.vscode-body hr {
+  border-top-style: initial;
+  border-right-style: initial;
+  border-left-style: initial;
+  border-top-color: initial;
+  border-right-color: initial;
+  border-left-color: initial;
+  margin: 16px 0px;
+  border-width: 0px 0px 1px;
+  border-image: initial;
+  border-bottom: 1px solid rgb(223, 225, 230);
 }
