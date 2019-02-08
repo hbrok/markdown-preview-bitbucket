@@ -8,17 +8,27 @@
   "engines": {
     "vscode": "^1.19.0"
   },
-  "categories": ["Other"],
+  "categories": [
+    "Other"
+  ],
   "icon": "images/icon.png",
   "galleryBanner": {
     "color": "#eee",
     "theme": "light"
   },
-  "keywords": ["Markdown", "Bitbucket"],
-  "activationEvents": ["onLanguage:markdown"],
+  "keywords": [
+    "Markdown",
+    "Bitbucket"
+  ],
+  "activationEvents": [
+    "onLanguage:markdown"
+  ],
   "main": "./extension",
   "contributes": {
-    "markdown.previewStyles": ["./base.css", "./bitbucket-markdown.css"],
+    "markdown.previewStyles": [
+      "./base.css",
+      "./bitbucket-markdown.css"
+    ],
     "markdown.markdownItPlugins": true
   },
   "scripts": {
@@ -26,14 +36,14 @@
     "test": "node ./node_modules/vscode/bin/test"
   },
   "devDependencies": {
-    "vscode": "^1.1.6",
-    "eslint": "^4.6.1",
+    "@types/mocha": "^2.2.42",
     "@types/node": "^7.0.43",
-    "@types/mocha": "^2.2.42"
+    "eslint": "^5.13.0",
+    "vscode": "^1.1.29"
   },
   "dependencies": {
-    "markdown-it-anchor": "^4.0.0",
-    "markdown-it-table-of-contents": "^0.3.3"
+    "markdown-it-anchor": "^5.0.2",
+    "markdown-it-table-of-contents": "^0.4.3"
   },
   "bugs": {
     "url": "https://github.com/hbrok/markdown-preview-bitbucket/issues"
